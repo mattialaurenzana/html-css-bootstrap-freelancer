@@ -1,0 +1,36 @@
+header{
+    background-color: rgb(38, 38, 94);
+    height: 70px;
+}
+
+.start{
+    height: 400px;
+    background-color: rgb(43, 167, 140); 
+}
+
+.portfolio{
+    height: 600px;
+    background-color: white;
+}
+
+.container{
+    width: 70%;
+}
+
+.item img{
+    border-radius: 10px;
+}
+
+
+@media screen and(min-width:576px){
+    .container{
+        width: 90%;
+    }
+}
+
+
+@media screen and(max-width:576px){
+    .container{
+        width: 100%;
+    }
+}
