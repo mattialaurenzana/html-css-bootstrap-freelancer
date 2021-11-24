@@ -14,21 +14,98 @@ header .container > span{
 }
 
 .start{
-    height: 400px;
     background-color: rgb(43, 167, 140); 
 }
+
+.jumbotron img{
+    width: 200px;
+}
+
+.icon-jumbotron{
+    font-size: 25px;
+}
+
+.div-white{
+    display: inline-block;
+    width: 15%;
+    height: 5px;
+    background-color: white;
+}
+
+.div-black{
+    display: inline-block;
+    width: 15%;
+    height: 5px;
+    background-color: black;
+}
+
+.star{
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.works{
+    font-size: 20px;
+}
+
+.portfolio{
+    font-size: 40px;
+}
+
 
 .about{
-    height: 300px;
     background-color: rgb(43, 167, 140); 
 }
 
-.contact{
-    height: 500px;
+button{
+    color: white;
+}
+
+
+
+input{
+    width: 100%;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom-color: lightgrey;
+    padding-bottom: 15px;
+}
+
+textarea{
+    width: 100%;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom-color: lightgrey;
+    padding-bottom: 15px;
+}
+
+ ::placeholder{
+    color: black;
+} 
+
+.send{
+    background-color: rgb(43, 167, 140); 
+    font-size: 20px;
+    border-color: rgb(43, 167, 140); 
+}
+
+.icon-social{
+    border:1px white solid;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-green{
+    color: rgb(43, 167, 140);
 }
 
 .social{
-    height: 200px;
     background-color: rgb(126, 126, 160);
 }
 
