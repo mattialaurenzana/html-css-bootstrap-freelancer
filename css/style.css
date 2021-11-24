@@ -1,5 +1,16 @@
 header{
     background-color: rgb(38, 38, 94);
+    color: white;
+}
+
+header .container > span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-nav{
+    font-weight: bold;
+    font-size: 14px;
 }
 
 .start{
