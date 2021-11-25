@@ -3,9 +3,14 @@ header{
     color: white;
 }
 
-header .container > span{
+
+.text-start{
+    color: white;
     font-size: 20px;
     font-weight: bold;
+}
+.jumbo{
+    margin-top: 95px;
 }
 
 .text-nav{
